@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta charset="utf-8">
+        <title>Sitio de JLPR</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="https://kit.fontawesome.com/6519904a38.js" crossorigin="anonymous"></script>
+
+    </head> 
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="#" target="_blank" class="marca">Churros</a>
+            <ul>
+                <li><a href="#home" onclick="alternar()">Inicio</a></li>
+                <li><a href="#about" onclick="alternar()">Nosotros</a></li>
+                <li><a href="#services" onclick="alternar()">Servicios</a></li>
+                <li><a href="#portfolio" onclick="alternar()">Clientes</a></li>
+                <li><a href="#team" onclick="alternar()">Equipo</a></li>
+                <li><a href="#contact" onclick="alternar()">Contactos</a></li>
+                <li><a onclick="showloginBox()">Iniciar Sesión</a></li>
+            </ul>
+            <div class="btnMenu" onclick="alternar()">
+            </div>
+        </header>
+        <!-- Banner -->
+        <section class="banner" id="home">
+            <h2><span class="uno">¿</span><span class="dos">Se te antojaron</span><span class="uno">?</span></h2>
+        </section>
+        <!-- About -->
+        <section class="sec" id="about">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>¿Quiénes somos?</h3>
+                    <p>Somos una pequeña empresa que se enfoca en la producción de churros en un aréa local. Damos variedad a los tipos y sabores de churros que se pueden encontrar.
+                    </p>
+                    <a href="#" class="btn">Saber más</a>
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="sec" id="services">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>¿Qué hacemos?</h3>
+                    <p>Churros XD ¿Qué más?
+                    </p>
+                </div>
+                <div class="services">
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="assets/churro1.png">
+                        </div>
+                        <div class="content">
+                            <h2>Diseño</h2>
+                            <p>Churros de todos los tipos y sabores
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="assets/churro2.png">
+                        </div>
+                        <div class="content">
+                            <h2>Desarrollo</h2>
+                            <p>Saca un PowerUP con el poder de la amistad
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="assets/churro3.png">
+                        </div>
+                        <div class="content">
+                            <h2>Costo</h2>
+                            <p>Precios accesibles al público
+                            </p>
+                        </div>
+                    </div>        
+                </div>                  
+        </section>
+        <!-- Stats -->
+        <section class="sec stats" id="stats">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Logros</h3>
+                    <p>Hemos creado más de 6 sucursales en todo el estado de Veracruz, además de más de 20 puestos de locales para la comunidad.
+                        Teniendo más de 300 clientes satisfechos y más de 5 sabores distintos de churros.
+                    </p>
+                </div>
+                <div class="statsBox">
+                    <div class="box">
+                        <h2>7+</h2>
+                        <h4>Sucursales</h4>  
+                    </div>
+                    <div class="box">
+                        <h2>20+</h2>
+                        <h4>Puestos</h4>  
+                    </div>
+                    <div class="box">
+                        <h2>300+</h2>
+                        <h4>Clientes</h4>  
+                    </div>
+                    <div class="box">
+                        <h2>5+</h2>
+                        <h4>Tipos de sabores</h4>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="sec work" id="portfolio">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Combinaciones de sabores</h3>
+                    <p>Sabores más consumidos por los clientes durante los últimos días.</p>
+                </div>
+                <div class="workBx">
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 1</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 2</h2></a>                   
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 3</h2></a>                 
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 4</h2></a>         
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 5</h2></a>             
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 6</h2></a>             
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 7</h2></a>           
+                    </div>
+                    <div class="brand">
+                        <a href="#"><h2>Sabor 8</h2></a>       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Slider -->
+         <section class="sect"> 
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Recetas más famosas</h3>
+                    <p>
+                        ¡Conoce más acerca de nuestras rectas más pedidas por la comunidad!
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="slider-items">
+                        <div class="item active">
+                            <img src="assets/churros_1.jpg">
+                            <div class="caption">
+                                Churros rellenos de Cajeta-Rompope
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/churros_2.jpg">
+                            <div class="caption">
+                                Churrros acompañados con helado
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/churros_3.jpg">
+                            <div class="caption">
+                                Churros Extra Suggar
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/churros_4.jpg">
+                            <div class="caption">
+                                Churros Zero Gluten
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slider Controlers-->
+                    <div class="left-slide"><</div>
+                    <div class="right-slide">></div>
+                </div>
+            </div>
+        </section>
+        <!-- Team -->
+        <section class="sec" id="team">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Dream Team</h3>
+                    <p>Conoce a las personas que colaboran para el desarrollo, propaganda,  
+                        distribución y supervición de calidad de nuestros productos.</p>
+                </div>
+                <div class="teamBx">
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/chef.jpeg">
+                        </div>
+                        <div class="details">
+                            <h2>Carlos<br><span>Chef de Reposteria</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/evaluador.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>Gustavo<br><span>Evaluador de Calidad de Productos</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/propaganda.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>Matheo<br><span>Encargado de Propaganda</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/repartidor.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>Santiago<br><span>Encargado de Distribución</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="sec contact" id="contact">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Contactanos</h3>
+                    <p>Estamos abiertos a solicitudes de empleos, deja tu nombre, correo y descirpción personal. 
+                        O contactanos en nuestras redes sociales para más información.
+                    </p>
+                </div>
+                <div class="contactForm">
+                    <form id="form">
+                        <div class="row100">
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Nombre"
+                                id="nombre" onkeyup="validacionNombre()">
+                                <span id="textNombre"></span>
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Email"
+                                id="email" onkeyup="validacionEmail()">
+                                <span id="textEmail"></span>
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Telefono"
+                                id="telefono" onkeyup="validacionTelefono()">
+                                <span id="textTelefono"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Mensaje"
+                                id="mensaje" onkeyup="validacionMensaje()"></textarea>
+                                <span id="textMensaje"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="sci">
+                    <ul>
+                        <li><a href="#"><img src="assets/whatsapp.png"></a></li>
+                        <li><a href="#"><img src="assets/facebook.png"></a></li>
+                        <li><a href="#"><img src="assets/gorjeo.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="button-up">
+                <i class="fa-sharp fa-solid fa-circle-up"></i>
+            </div>
+        </section>
+        <!--LoginBox-->
+        <section>
+            <div id="loginBox" class="loginBox">
+                <img src="assets/user.png" class="user">
+                <div class="btnClose" onClick="cerrarlogin()">
+                    <img src="assets/cancelar.png">
+                </div>
+                    <h2> Iniciar sesión </h2>
+                    <form action="users_login.php" method="POST">
+                        <p>Email</p>
+                        <input type="text" 
+                            name="email"
+                            placeholder="Escribe tu email">
+                        <p>Contraseña</p>
+                        <input type="password" 
+                            name="password"
+                            placeholder="******">
+                        <input type="submit" value="Entrar">
+                        <a href="users_nuevo.php"> Crea una cuenta</a>
+                        <a href="#"> ¿Olvidó su contraseña? </a>
+                    </form>
+            </div>
+        </section>
+        <script>
+            //ScrollHeader
+            window.addEventListener("scroll",function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY>0)
+            })
+            function alternar(){
+                var header = document.querySelector("header");
+                header.classList.toggle("active")
+            }
+            //ScrollUp
+            buttonUp = document.getElementById("button-up");
+            buttonUp.addEventListener("click", scrollUp);
+            window.onscroll = function(){
+                var scroll = document.documentElement.scrollTop;
+                if(scroll>200){
+                    buttonUp.style.transform = "scale(1)";
+                }
+                else{
+                    buttonUp.style.transform = "scale(0)"
+                }
+            }
+            function scrollUp(){
+                var scroll=document.documentElement.scrollTop;
+                if(scroll>0){
+                    window.requestAnimationFrame(scrollUp);
+                    window.scrollTo(0,scroll-(scroll/10));
+                }
+            }
+            //Validaciones
+            function validacionEmail(){
+                var email=document.getElementById("email").value;
+                var text= document.getElementById("textEmail");
+                var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+                if (email.match(pattern)){
+                    text.innerHTML="El correo es válido";
+                    text.style.color="#00FF00";
+                }
+                else{
+                    text.innerHTML="Introduzca un correo válido";
+                    text.style.color="#ffc0cb";
+                }  
+            }
+            function validacionNombre(){
+                var nombre=document.getElementById("nombre").value;
+                var text = document.getElementById("textNombre");
+                var patternName = /^[a-z]+$/i;
+               if (nombre.match(patternName)){
+                    text.innerHTML="El nombre es válido";
+                    text.style.color="#00FF00";
+                }
+                else{
+                    text.innerHTML="Introduzca un nombre válido";
+                    text.style.color="#ffc0cb";
+                }  
+            }
+            function validacionTelefono(){
+                var tel=document.getElementById("telefono").value;
+                var text = document.getElementById("textTelefono");
+                var patternTel = /^\d{10}$/;
+               if (tel.match(patternTel)){
+                    text.innerHTML="El telefono es válido";
+                    text.style.color="#00FF00";
+                }
+                else{
+                    text.innerHTML="Introduzca un telefono válido";
+                    text.style.color="#ffc0cb";
+                }
+            }
+            function validacionMensaje() {
+                var mensaje=document.getElementById("mensaje").value;
+                var text = document.getElementById("textMensaje");
+                var patternTxt = /^[a-z]+$/i;
+               if (mensaje.match(patternTxt)){
+                    text.innerHTML="El mensaje es válido";
+                    text.style.color="#00FF00";
+                }
+                else{
+                    text.innerHTML="Introduzca un mensaje válido";
+                    text.style.color="#ffc0cb";
+                }  
+            }
+            //Slider
+            var slides = document.querySelector(".slider-items").children;
+            var nextSlide = document.querySelector(".right-slide");
+            var prevSlide = document.querySelector(".left-slide");
+            var totalSlides = slides.length;
+            var index=0
+
+            nextSlide.onclick = function(){
+                next("siguiente");
+            }
+
+            prevSlide.onclick = function(){
+                next("anterior");
+            }
+
+            function next(direccion){
+                if(direccion=="siguiente"){
+                    index++;
+                    if(index==totalSlides){
+                        index=0;
+                    }
+                }
+                else{
+                    if (index==0){
+                        index=totalSlides-1;
+                    }
+                    else{
+                        index--;
+                    }
+                }
+                for(i=0; i<totalSlides; i++){
+                    slides[i].classList.remove("active");
+                }
+                slides[index].classList.add("active");
+            }
+            //Login
+            function showloginBox(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.add("active")
+            }
+            function cerrarlogin(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.remove("active")
+
+            }
+        </script>
+    </body>
+</html>
+
